@@ -1,0 +1,88 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box; }
+
+body {
+  padding: 10px;
+  background: #2c3e50; }
+  @media (orientation: landscape) {
+    body {
+      background: red; } }
+
+/* Component card */
+/* card */
+/*	card header */
+/* component modify */
+/* card */
+/*	card header */
+/* component modify */
+/* card */
+/*	card header */
+/* component modify */
+.card {
+  width: 100%;
+  background: #fff;
+  min-height: 100vh;
+  float: left; }
+  .card .card-header {
+    height: 50px;
+    line-height: 50px;
+    background: #f39c12; }
+    .card .card-header .card-title {
+      font-size: 18px;
+      text-align: center;
+      font-weight: bold; }
+  .card .card-body {
+    padding: 10px; }
+  .card.card-info .card-header {
+    background: #3498db; }
+  .card.card-primary .card-header {
+    background: #f1c40f; }
+  @media (max-width: 480px) {
+    .card.card-01, .card.card-02 {
+      width: 50%; } }
+  @media (min-width: 768px) {
+    .card.card-01, .card.card-02 {
+      width: 50vw; } }
+
+/* Component comentario */
+/* comentario */
+/*	comentario header */
+/* component modify */
+/* comentario */
+/*	comentario header */
+/* component modify */
+/* comentario */
+/*	comentario header */
+/* component modify */
+.comentario {
+  width: 40%;
+  height: auto;
+  display: inline-block;
+  background: #fff;
+  min-height: 40px; }
+  .comentario .comentario-texto {
+    padding: 5px;
+    width: 65%;
+    float: left; }
+  .comentario .comentario-header {
+    height: 50px;
+    line-height: 50px;
+    background: #2980b9; }
+    .comentario .comentario-header .comentario-title {
+      font-size: 22px;
+      text-align: center;
+      font-weight: bold; }
+  .comentario .comentario-body {
+    padding: 5px; }
+  .comentario .comentario-image {
+    max-width: 35%;
+    padding: 5px; }
+  .comentario .comentario-image img {
+    max-width: 100% !important;
+    float: left; }
+  .comentario .comentario-paragrafo {
+    background: #ecf0f1;
+    font-style: italic;
+    font-size: medium; }
